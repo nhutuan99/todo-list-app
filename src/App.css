@@ -71,14 +71,13 @@ form select {
   width: 10rem;
   cursor: pointer;
   padding: 1rem;
+  background-color: white;
 }
 
 form .select::after {
   content: "\25BC";
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
+  font-family: 'FontAwesome';
+  display: inline-block;
   position: absolute;
   background: #5dade2;
   top: 0;
@@ -179,9 +178,6 @@ form .select:hover::after {
   opacity: 0;
 }
 
-.todo-container .filter-todo{
-  background: white;
-}
 /* Mobile and Tablet */
 @media (max-width: 1023px) {
   header {
@@ -199,6 +195,7 @@ form .select:hover::after {
   }
 }
 
+/* Mobile */
 /* Mobile */
 @media (max-width: 739px) {
   header {
