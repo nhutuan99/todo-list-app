@@ -179,6 +179,9 @@ form .select:hover::after {
   opacity: 0;
 }
 
+.todo-container .filter-todo{
+  background: white;
+}
 /* Mobile and Tablet */
 @media (max-width: 1023px) {
   header {
